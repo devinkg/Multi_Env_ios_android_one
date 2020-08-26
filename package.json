@@ -7,7 +7,13 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "ios-staysure": "react-native run-ios --configuration Debug.Staysure --scheme deekay_multi_env_test.staysure",
+    "ios-avanti": "react-native run-ios --configuration Debug.Avanti --scheme deekay_multi_env_test.avanti",
+    "android-staysure": "react-native run-android --variant=staysureDebug --appIdSuffix=staysure",
+    "android-avanti": "react-native run-android --variant=avantiDebug --appIdSuffix=avanti",
+    "ios-staysure-release": "react-native run-ios --configuration Release.Staysure --scheme deekay_multi_env_test.staysure",
+    "ios-avanti-release": "react-native run-ios --configuration Release.Avanti --scheme deekay_multi_env_test.avanti"
   },
   "dependencies": {
     "react": "16.13.1",
